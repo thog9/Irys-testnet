@@ -76,6 +76,10 @@ async def run_withdraw(language: str):
     from scripts.withdraw import run_withdraw as withdraw_run
     await withdraw_run(language)
 
+async def run_spritetype(language: str):
+    from scripts.spritetype import run_spritetype as spritetype_run
+    await spritetype_run(language)
+
 async def run_snake(language: str):
     from scripts.snake import run_snake as snake_run
     await snake_run(language)
@@ -105,6 +109,7 @@ SCRIPT_MAP = {
     "nftcollection": run_nftcollection,
     "deposit": run_deposit,
     "withdraw": run_withdraw,
+    "spritetype": run_spritetype,
     "snake": run_snake,
     "asteroids": run_asteroids,
     "hexshot": run_hexshot,
@@ -119,10 +124,11 @@ def get_available_scripts(language):
             
             {"name": "2. Deposit IRYS │ Irys Testnet", "value": "deposit", "locked": True},
             {"name": "3. Withdraw IRYS │ Irys Testnet", "value": "withdraw", "locked": True},
-            {"name": "4. Tự động chơi game Snake │ Irys Testnet", "value": "snake", "locked": True},
-            {"name": "5. Tự động chơi game Asteroids │ Irys Testnet", "value": "asteroids", "locked": True},
-            {"name": "6. Tự động chơi game Hexshot │ Irys Testnet", "value": "hexshot", "locked": True},
-            {"name": "7. Tự động chơi game Missile │ Irys Testnet", "value": "missile", "locked": True},
+            {"name": "4. Tự động chơi game Spritetype │ Irys Testnet", "value": "spritetype", "locked": True},
+            {"name": "5. Tự động chơi game Snake │ Irys Testnet", "value": "snake", "locked": True},
+            {"name": "6. Tự động chơi game Asteroids │ Irys Testnet", "value": "asteroids", "locked": True},
+            {"name": "7. Tự động chơi game Hexshot │ Irys Testnet", "value": "hexshot", "locked": True},
+            {"name": "8. Tự động chơi game Missile │ Irys Testnet", "value": "missile", "locked": True},
 
           
             {"name": "9. Deploy NFT - Quản lý bộ sưu tập NFT [ Tạo | Mint | Đốt ] | Irys Testnet", "value": "nftcollection"},
@@ -138,10 +144,11 @@ def get_available_scripts(language):
             
             {"name": "2. Deposit IRYS │ Irys Testnet", "value": "deposit", "locked": True},
             {"name": "3. Withdraw IRYS │ Irys Testnet", "value": "withdraw", "locked": True},
-            {"name": "4. Automatically play Snake │ Irys Testnet", "value": "snake", "locked": True},
-            {"name": "5. Automatically play Asteroids │ Irys Testnet", "value": "asteroids", "locked": True},
-            {"name": "6. Automatically play Hexshot │ Irys Testnet", "value": "hexshot", "locked": True},
-            {"name": "7. Automatically play Missile │ Irys Testnet", "value": "missile", "locked": True},
+            {"name": "4. Automatically play Spritetype │ Irys Testnet", "value": "spritetype", "locked": True},
+            {"name": "5. Automatically play Snake │ Irys Testnet", "value": "snake", "locked": True},
+            {"name": "6. Automatically play Asteroids │ Irys Testnet", "value": "asteroids", "locked": True},
+            {"name": "7. Automatically play Hexshot │ Irys Testnet", "value": "hexshot", "locked": True},
+            {"name": "8. Automatically play Missile │ Irys Testnet", "value": "missile", "locked": True},
             
 
             {"name": "9. Deploy NFT - Manage NFT Collection [ Create | Mint | Burn ] | Irys Testnet", "value": "nftcollection"},
@@ -260,3 +267,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
