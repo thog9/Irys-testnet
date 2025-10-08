@@ -120,15 +120,15 @@ SCRIPT_MAP = {
 def get_available_scripts(language):
     scripts = {
         'vi': [
-            {"name": "1. Faucet token [ IRYS ] | Irys Testnet", "value": "faucet", "locked": True},
+            {"name": "1. Faucet token [ IRYS ] | Irys Testnet", "value": "faucet"},
             
-            {"name": "2. Deposit IRYS │ Irys Testnet", "value": "deposit", "locked": True},
-            {"name": "3. Withdraw IRYS │ Irys Testnet", "value": "withdraw", "locked": True},
-            {"name": "4. Tự động chơi game Spritetype │ Irys Testnet", "value": "spritetype", "locked": True},
-            {"name": "5. Tự động chơi game Snake │ Irys Testnet", "value": "snake", "locked": True},
-            {"name": "6. Tự động chơi game Asteroids │ Irys Testnet", "value": "asteroids", "locked": True},
-            {"name": "7. Tự động chơi game Hexshot │ Irys Testnet", "value": "hexshot", "locked": True},
-            {"name": "8. Tự động chơi game Missile │ Irys Testnet", "value": "missile", "locked": True},
+            {"name": "2. Deposit IRYS │ Irys Testnet", "value": "deposit"},
+            {"name": "3. Withdraw IRYS │ Irys Testnet", "value": "withdraw"},
+            {"name": "4. Tự động chơi game Spritetype │ Irys Testnet", "value": "spritetype"},
+            {"name": "5. Tự động chơi game Snake │ Irys Testnet", "value": "snake"},
+            {"name": "6. Tự động chơi game Asteroids │ Irys Testnet", "value": "asteroids"},
+            {"name": "7. Tự động chơi game Hexshot │ Irys Testnet", "value": "hexshot"},
+            {"name": "8. Tự động chơi game Missile │ Irys Testnet", "value": "missile"},
 
           
             {"name": "9. Deploy NFT - Quản lý bộ sưu tập NFT [ Tạo | Mint | Đốt ] | Irys Testnet", "value": "nftcollection"},
@@ -140,15 +140,15 @@ def get_available_scripts(language):
             
         ],
         'en': [
-            {"name": "1. Faucet token [ IRYS ] | Irys Testnet", "value": "faucet", "locked": True},
+            {"name": "1. Faucet token [ IRYS ] | Irys Testnet", "value": "faucet"},
             
-            {"name": "2. Deposit IRYS │ Irys Testnet", "value": "deposit", "locked": True},
-            {"name": "3. Withdraw IRYS │ Irys Testnet", "value": "withdraw", "locked": True},
-            {"name": "4. Automatically play Spritetype │ Irys Testnet", "value": "spritetype", "locked": True},
-            {"name": "5. Automatically play Snake │ Irys Testnet", "value": "snake", "locked": True},
-            {"name": "6. Automatically play Asteroids │ Irys Testnet", "value": "asteroids", "locked": True},
-            {"name": "7. Automatically play Hexshot │ Irys Testnet", "value": "hexshot", "locked": True},
-            {"name": "8. Automatically play Missile │ Irys Testnet", "value": "missile", "locked": True},
+            {"name": "2. Deposit IRYS │ Irys Testnet", "value": "deposit"},
+            {"name": "3. Withdraw IRYS │ Irys Testnet", "value": "withdraw"},
+            {"name": "4. Automatically play Spritetype │ Irys Testnet", "value": "spritetype"},
+            {"name": "5. Automatically play Snake │ Irys Testnet", "value": "snake"},
+            {"name": "6. Automatically play Asteroids │ Irys Testnet", "value": "asteroids"},
+            {"name": "7. Automatically play Hexshot │ Irys Testnet", "value": "hexshot"},
+            {"name": "8. Automatically play Missile │ Irys Testnet", "value": "missile"},
             
 
             {"name": "9. Deploy NFT - Manage NFT Collection [ Create | Mint | Burn ] | Irys Testnet", "value": "nftcollection"},
@@ -267,4 +267,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
